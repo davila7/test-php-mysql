@@ -1,0 +1,6 @@
+version: '3'
+services:
+  php-app:
+    image: php:7.4-cli
+  db:
+    image: mysql
